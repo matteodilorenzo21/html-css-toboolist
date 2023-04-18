@@ -54,8 +54,74 @@ button{
     padding: 5px;
     padding-inline: 2%;
     margin-right: 3px;
-    background-color: rgb(0, 145, 235);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border-radius: 5px;
-    border: 1px solid rgb(115, 115, 115);
+    border: 1px solid rgb(200, 200, 200);
 }
+
+/* Main */
+main{
+    background-color: white;
+    margin-top: 2px;
+    padding: 5%;
+}
+
+section{
+    margin-bottom: 25px;
+}
+
+ul{
+    list-style: none;
+}
+
+.section-down-symbol{
+    vertical-align: middle;
+    font-size: 8px;
+    margin: 4px;
+}
+
+.section-header{
+    margin-bottom: 20px;
+}
+
+.item-check{
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    font-size: 10px;
+    color: rgb(0, 150, 0);
+    border: 1px solid rgb(0, 150, 0);
+    border-radius: 50%;
+    height: 17px;
+    width: 17px;
+    padding: 2px;
+    margin: 5px;
+}
+
+.item-null{
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    font-size: 10px;
+    color: rgb(150, 0, 0);
+    border: 1px solid rgb(150, 0, 0);
+    border-radius: 50%;
+    height: 17px;
+    width: 17px;
+    padding: 2px;
+    margin: 5px;
+}
+
+.item-subject{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(0, 140, 255);
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
