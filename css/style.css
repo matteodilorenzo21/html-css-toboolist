@@ -8,7 +8,7 @@
 /* Generics */
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(200, 200, 200);
 }
 
 /* Utilies */
@@ -75,6 +75,10 @@ ul{
     list-style: none;
 }
 
+li{
+    margin-bottom: 8px;
+}
+
 .section-down-symbol{
     vertical-align: middle;
     font-size: 8px;
@@ -125,3 +129,23 @@ ul{
     padding: 5px;
 }
 
+/*Item subject colors*/
+.item-subject.B{
+    background-color: rgb(181, 102, 255);
+}
+
+.item-subject.C{
+    background-color: rgb(111, 188, 246);
+}
+
+.item-subject.D{
+    background-color: rgb(255, 170, 0);
+}
+
+.item-subject.E{
+    background-color: rgb(255, 0, 255);
+}
+
+.item-subject.F{
+    background-color: rgb(35, 204, 35);
+}
