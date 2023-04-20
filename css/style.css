@@ -14,7 +14,7 @@ body{
 
 /* Utilies */
 .container{
-    width: 50%;
+    max-width: 50%;
     margin: 30px auto;
 }
 
